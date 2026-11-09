@@ -1,1 +1,66 @@
-body{font-family: Roboto, sans-serif;}
+body{font-family: Roboto, sans-serif; margin: 0;}
+
+
+.header{background-color:#1F2937; color: #F9FAF8;
+        display: flex; justify-content:flex-end; width: 100%;}
+
+.header .logo{ font-size: 24px; color:#F9FAF8; 
+              margin-right:auto; margin-left: 15%;
+              padding: 10px; font-weight: bold;}
+
+.header .Menus{ margin:15px;
+                margin-right: 15%; display: flex; gap: 20px;}
+
+.Menus a{ color:#F9FAF8; text-decoration: none;}
+
+
+.Menus a:hover{ color:#1F2937; background-color: #F9FAF8; 
+        padding: 3px; border-radius: 10px; motion:auto;}
+
+.Hero-section{background-color:#1F2937; color:#F9FAF8;
+              display:flex; justify-content: space-between; 
+              align-items: center;
+         height: 65vh; padding: 0 5%; gap:40px;}
+img {width: 480px; height: 240px;}
+button{background-color:#F9FAF8; color:#1F2937; 
+       border: none; padding: 10px 20px; font-size: 16px;
+       cursor: hand; border-radius: 5px;}
+button:hover{background-color:blue; 
+             color:#F9FAF8; transition: 0.3s; cursor: hand;}
+
+.Services {margin: 40px;}
+.Services h2{text-align: center;
+             color: #1F2937;
+             margin-bottom: 30px;}
+.services-containers{display:flex; justify-content:center;
+                    gap:10px; flex-wrap: wrap; padding: 0 27%;}
+.service{flex:1; min-width:0;}
+.service img{width: 100px; height: 100px; aspect-ratio:1/1; object-fit: cover;
+             border-radius: 5px; display: block; border: 5px solid blue; 
+             margin-bottom:2px;}
+.service p {text-align: center; max-width: 100px;
+            margin: 5px; line-height: 1.0; font-size: 8px; 
+            color:#1F2937;} 
+.quote { background-color:rgb(216, 218, 221); color:#1F2937; 
+        justify-content: center; align-items: center; padding:5%;
+         border-radius: 15px;  }
+.quote p {text-align: center; font-size: 16px;
+         max-width: 500px;
+         font-style: italic;}
+.bold {font-weight: bold; margin-top:95px;}  
+.Testimonials {display: flex; justify-content: center; align-items: center; gap: 7px;}
+
+.CTA-button{background-color: #F9FAF8;
+           justify-content: center; padding: 5%;}
+.sign-up {background-color:  #3882F6; color:#F9FAF8; 
+          display: block; align-items:center;
+         justify-content: center;  border-radius: 10px ;}
+
+.sign p, 
+.sign h3{margin: 0;}
+.sign{ display: flex; align-items:center; padding: 70px;
+         justify-content: center; margin-bottom: 15px; gap: 30px;}
+.sign p {margin: 0; max-width: 500px;}
+
+.footer {background-color: #1F2937; color: #F9FAF8; 
+         margin: 0; text-align: center; padding: 5px;}
